@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "HarmonyOS Sans SC", "MiSans", "Microsoft YaHei UI";
+    font-size: 12pt;
+    color: #3D3D3D;
+}
+
+a {
+    text-decoration: none;
+}
+
+#SideBar {
+    padding: 10px;
+    width: 145px;
+    height: 100vh;
+    background-color: #F0F0F0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#Logo {
+    height: 100px;
+}
+
+.Tools {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.Tools div {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Option {
+    display: flex;
+    align-items: center;
+}
+
+.Tools>p {
+    color: #969696;
+}
+
