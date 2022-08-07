@@ -1,0 +1,27 @@
+* {
+    font-family: "HarmonyOS Sans SC", "MiSans", "Microsoft YaHei UI", system-ui;
+    font-size: 12pt;
+    color: #3D3D3D;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+hr {
+    background-color: #969696;
+    margin: 0 5px;
+}
+
+a {
+    text-decoration: none;
+}
