@@ -4,15 +4,15 @@
 }
 
 #DownloadDisplay {
-    display: inline-flex;
+    display: none;
     flex-direction: column;
     /*Test*/
     /*border: #3D3D3D solid 2px;*/
 }
 
-webview {
-    display: none;
-}
+/*webview {*/
+/*    display: none;*/
+/*}*/
 
 .Task {
     /*margin: 5px;*/
@@ -24,10 +24,8 @@ webview {
     position: relative;
 }
 
-.Task progress {
-    position: absolute;
-    width: 60%;
-    top: 30px;
+#DefaultTask {
+    display: none;
 }
 
 .Task span {
@@ -132,12 +130,13 @@ webview {
     top:0;
 }
 
-#DownloadProgress {
+#ProgressBar {
     top: 23px;
     width: calc(100% - 150px);
+    position: absolute;
 }
 
-#FileName,#DownloadProgress,#DownloadedSize {
+#FileName,#ProgressBar,#DownloadedSize {
     left: 60px;
 }
 
