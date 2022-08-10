@@ -1,0 +1,28 @@
+{
+  "name": "small_house_of_xi_alpha",
+  "version": "0.0.1",
+  "description": "Made By XiaoYouChR",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoYouChR/Small_House_of_Xi.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/XiaoYouChR/Small_House_of_Xi/issues"
+  },
+  "homepage": "https://github.com/XiaoYouChR/Small_House_of_Xi#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.65"
+  },
+  "dependencies": {
+    "electron": "^20.0.1"
+  }
+}
